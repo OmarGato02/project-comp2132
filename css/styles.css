@@ -1,0 +1,51 @@
+body {
+  background-color: lightblue;
+}
+
+.dice-image {
+  width: 50px;
+}
+
+#new-game-button {
+  color: white;
+  background-color: green;
+}
+
+#roll-dice-button {
+  color: white;
+  background-color: green;
+}
+
+#roll-dice-button:disabled {
+  background-color: grey;
+  color: white;
+}
+
+.dice-round {
+  display: flex;
+  margin: 0 auto;
+}
+
+.dice-round > .player1 {
+  margin: 20px;
+}
+
+.dice-round > .player2 {
+  margin: 20px;
+}
+
+.dice-round > .dice-image img {
+  float: right;
+}
+
+.pop-up {
+  border-radius: 4px;
+  background-color: aquamarine;
+  position: fixed;
+  top: 25%;
+  left: calc(45% - 100px);
+  width: 300px;
+  padding: 13px;
+  opacity: 0;
+  display: none;
+}
